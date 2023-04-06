@@ -10,9 +10,11 @@ header .burguer-menu {
 header {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     padding-top: 30px;
     padding-bottom: 30px;
+    padding-left: 165px;
+    padding-right: 165px;
     width: 100%;
 }
 
@@ -73,6 +75,8 @@ header .menu .item-nav {
     width: 100%;
     margin-bottom: 96px;
     flex-wrap: wrap;
+    padding-left: 165px;
+    padding-right: 165px;
 }
 
 .presentacion .padel {
@@ -122,6 +126,8 @@ header .menu .item-nav {
     background: #8B48BF;
     color: white;
     width: 100%;
+    padding-left: 165px;
+    padding-right: 165px;
 }
 
 .pros .pros-principal .pros-title {
@@ -132,135 +138,156 @@ header .menu .item-nav {
     width: 50%;
 }
 
-.tarjetas {
+.pros .tarjetas {
     display: flex;
     flex-direction: column;
     background: #fafafa;
     padding-top: 40px;
 }
 
-.tarjetas .fila1 .tarjeta .titlenum-desktop {
-    padding: 10px 25px;
-    gap: 10px;
-
-    width: 69px;
-    height: 43px;
-
-    background: #8B48BF;
-    border-radius: 30px;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 23px;
-    margin-right: 23px;
-}
-
-.tarjetas .fila1 .tarjeta .num-title-tarj .titlenum-mobile {
-    display: flex;
-    padding: 10px 25px;
-    gap: 10px;
-
-    width: 69px;
-    height: 43px;
-
-    background: #8B48BF;
-    border-radius: 30px;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 23px;
-    margin-right: 23px;
-
-}
-
-.tarjetas .fila1 .tarjeta .title {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 23px;
-    letter-spacing: -0.015em;
-
-    color: #323851;
-}
-
-.tarjetas .fila1 .tarjeta .text {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16.2984px;
-    line-height: 26px;
-    display: flex;
-    align-items: center;
-    letter-spacing: -0.01em;
-
-    color: #B3B2B7;
-}
-
-.tarjetas .tarj03 .titlenum-desktop {
-    padding: 10px 25px;
-    gap: 10px;
-
-    width: 69px;
-    height: 43px;
-
-    background: #8B48BF;
-    border-radius: 30px;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 23px;
-    margin-right: 23px;
-}
-
-.tarjetas .tarj03 .text {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16.2984px;
-    line-height: 26px;
-    display: flex;
-    align-items: center;
-    letter-spacing: -0.01em;
-
-    color: #B3B2B7;
-}
-
-.tarjetas .fila1 .tarjeta {
+.pros .tarjetas .fila1 {
     display: flex;
     flex-direction: row;
 }
 
-.tarjetas .tarj03 .title {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 23px;
-    letter-spacing: -0.015em;
-
-    color: #323851;
-}
-
-.tarjetas .fila1 {
+.pros .tarjetas .fila1 .tarjeta {
     display: flex;
     flex-direction: row;
-
 }
 
-.tarjetas .tarj03 {
+.pros .tarjetas .tarjeta3 {
     align-self: center;
     width: 50%;
     display: flex;
     flex-direction: row;
+}
+
+.pros .tarjetas .fila1 .tarjeta .titlenum-desktop {
+    padding: 10px 25px;
+    gap: 10px;
+
+    width: 69px;
+    height: 43px;
+
+    background: #8B48BF;
+    border-radius: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 23px;
+    margin-right: 23px;
+}
+
+.pros .tarjetas .tarjeta3 .titlenum-desktop {
+    padding: 10px 25px;
+    gap: 10px;
+
+    width: 69px;
+    height: 43px;
+
+    background: #8B48BF;
+    border-radius: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 23px;
+    margin-right: 23px;
+}
+
+.pros .tarjetas .fila1 .tarjeta .title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: -0.015em;
+
+    color: #323851;
+}
+
+.pros .tarjetas .tarjeta3 .title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: -0.015em;
+
+    color: #323851;
+}
+
+.pros .tarjetas .fila1 .tarjeta .text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16.2984px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.01em;
+
+    color: #B3B2B7;
+}
+
+.pros .tarjetas .tarjeta3 .text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16.2984px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.01em;
+
+    color: #B3B2B7;
+}
+
+.pros .tarjetas .fila1 .tarjeta .num-title-tarj .titlenum-mobile {
+    display: flex;
+    padding: 10px 25px;
+    gap: 10px;
+
+    width: 69px;
+    height: 43px;
+
+    background: #8B48BF;
+    border-radius: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 23px;
+    margin-right: 23px;
+
+}
+
+.pros .tarjetas .tarjeta3 .num-title-tarj .titlenum-mobile {
+    display: flex;
+    padding: 10px 25px;
+    gap: 10px;
+
+    width: 69px;
+    height: 43px;
+
+    background: #8B48BF;
+    border-radius: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 23px;
+    margin-right: 23px;
+
 }
 
 .best {
@@ -562,7 +589,10 @@ header .menu .item-nav {
 }
 
 @media (max-width: 480px) {
-
+header {
+    padding-left: 60px;
+    padding-right: 60px;
+}
     /* Tablets */
     header .menu {
         display: none;
@@ -579,6 +609,8 @@ header .menu .item-nav {
     .presentacion {
         display: flex;
         flex-direction: column;
+        padding-left: 60px;
+        padding-right: 60px;
     }
 
     .presentacion .padel {
@@ -590,36 +622,66 @@ header .menu .item-nav {
         display: flex;
         flex-direction: column;
     }
-
-    .pros .pros-principal {
-        background: #3CDDF3;
-        flex-direction: column;
-    }
-
-    .pros .fila1 {
-        flex-direction: column;
-    }
-
+    
     .pros {
         flex-direction: column;
     }
 
-    .tarjetas .title {
+    .pros .pros-principal {
+        background: #3CDDF3;
+        flex-direction: column;
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+    .pros .tarjetas {
+        padding-left: 60px;
+    }
+
+    .pros .tarjetas .fila1 {
+        flex-direction: column;
+    }
+
+    .pros .tarjetas .tarjeta3 {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .pros .tarjetas .fila1 .tarjeta .titlenum-desktop {
+        display: none;
+    }
+
+    .pros .tarjetas .tarjeta3 .titlenum-desktop {
+        display: none;
+    }
+
+    .pros .tarjetas .fila1 .tarjeta div .num-title-tarj {
+        display: flex;
         background: rgba(139, 72, 191, 0.3);
-        ;
-    }
-
-    .tarjetas .fila1 .tarjeta .titlenum-desktop {
-        display: none;
-    }
-
-    .tarjetas .fila1 .tarjeta div .num-title-tarj {
-        flex-direction: row;
-    }
-
-    .tarjetas .fila1 .tarjeta .num-title-tarj .titlenum-desktop {
-        display: none;
-    }
+        border-bottom-left-radius: 30px;
+        border-top-left-radius: 30px;
+        align-items: center;
+      }
+    
+      .pros .tarjetas .tarjeta3 div .num-title-tarj {
+        display: flex;
+        background: rgba(139, 72, 191, 0.3);
+        border-bottom-left-radius: 30px;
+        border-top-left-radius: 30px;
+        align-items: center;
+      }
+    
+      .pros .tarjetas .fila1 .tarjeta div .title {
+        background-color: transparent;
+      }
+    
+      .pros .tarjetas .fila1 .tarjeta div .num-title-tarj .titlenum-mobile {
+        display: flex;
+      }
+    
+      .pros .tarjetas .tarjeta3 div .num-title-tarj .titlenum-mobile {
+        display: flex;
+      }
 
     .best .players  .player1 {
         display: none;
@@ -669,7 +731,11 @@ header .menu .item-nav {
 @media (max-width: 1440px) {
 
     /* Laptop */
-    .titlenum-mobile {
+    .pros .tarjetas .fila1 .tarjeta .num-title-tarj .titlenum-mobile {
+        display: none;
+    }
+
+    .pros .tarjetas .tarjeta3 .num-title-tarj .titlenum-mobile {
         display: none;
     }
 
